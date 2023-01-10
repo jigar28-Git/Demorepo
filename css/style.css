@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    width: 80%;
+}
+
+.navbar #logoimg{
+    height: 34px;
+}
+
+.navbar .options a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
